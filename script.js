@@ -11,7 +11,7 @@ const locations = [
   },
   { 
     name: "Durban", 
-    hint: "Coastal city in KwaZulu-Natal", 
+    hint: "Coastal city", 
     image: "images/Durban.jpg" 
   },
   { 
