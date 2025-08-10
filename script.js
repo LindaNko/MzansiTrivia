@@ -28,6 +28,37 @@ const locations = [
     name: "Bloemfontein", 
     hint: "Judicial capital of South Africa", 
     image: "images/Bloemfontein.jpg"  
+  },
+
+   { 
+    name: "Blyde River Canyon", 
+    hint: "One of the largest canyons in the world", 
+    image: "images/Blyde-River-Canyon.jpg"  
+  },
+  { 
+    name: "Addo Elephant National Park", 
+    hint: "Known for its large elephant population", 
+    image: "images/Addo-Elephant-Park.jpg"  
+  },
+  { 
+    name: "Drakensberg Mountains", 
+    hint: "Mountain range with breathtaking views", 
+    image: "images/Drakensberg.jpg"  
+  },
+  { 
+    name: "Garden Route", 
+    hint: "Scenic coastal drive with forests and beaches", 
+    image: "images/Garden-Route.jpg"  
+  },
+  { 
+    name: "Pilanesberg National Park", 
+    hint: "Wildlife reserve in a volcanic crater", 
+    image: "images/Pilanesberg.jpg"  
+  },
+  { 
+    name: "Cape Point", 
+    hint: "Scenic promontory near Cape Town", 
+    image: "images/Cape-Point.webp"  
   }
 ];
 
