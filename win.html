@@ -1,20 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>You Win!</title>
-    <link rel="stylesheet" href="stylesWin.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mzansi Trivia - You Win!</title>
+  <link rel="stylesheet" href="stylesWin.css">
 </head>
-<body>
-    <div class="container">
-        <h1>🎉 You Win! 🎉</h1>
-        <img src="https://cdn-icons-png.flaticon.com/512/2583/2583340.png" alt="Trophy" class="trophy">
-        <p>Congratulations, Superstar! 🌟</p>
-        <button onclick="window.location.href='index.html'">Play Again</button>
+<body class="win-page">
+
+  <header class="header">
+    <h2 class="logo">🇿🇦 Mzansi Trivia</h2>
+  </header>
+
+  <main class="container win-container">
+    <h1 class="win-title">🎉 You Win! 🎉</h1>
+    <h2 id="cityName"></h2>
+    <p id="cityDescription"></p>
+
+   <!--
+<h3>📍 Location on Map:</h3>
+<a id="mapLink" href="#" target="_blank" class="map-link">View on Google Maps</a>
+-->
+
+
+    <h3>🏆 Winner:</h3>
+    <ul id="topSpots"></ul>
+
+    <div class="btn-group">
+      <button class="primary-btn" onclick="location.href='game.html'">🔄 Play Again</button>
+      <button class="secondary-btn" onclick="location.href='index.html'">🏠 Back to Home</button>
     </div>
-    <script src="winDisplay.js"></script>
+  </main>
+
+  <script src="script.js"></script>
 </body>
 </html>
-
-              
