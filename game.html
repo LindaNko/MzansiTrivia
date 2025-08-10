@@ -3,20 +3,36 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Play - Discover South Africa</title>
+  <title>Mzansi Trivia - Play</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body class="game">
-  <div class="container">
-    <h1>Guess the Location!</h1>
-    <p id="hint"></p>
+
+  <header class="header">
+    <h2 class="logo">🇿🇦 Mzansi Trivia</h2>
+  </header>
+
+  <main class="container game-container">
+    <h1 class="game-title">🎯 Guess the Location!</h1>
+
+    <div class="hint-box">
+      <p id="hint"></p>
+    </div>
+
     <img id="locationImage" src="" alt="Location Image" class="location-img">
-    <div id="word"></div>
-    <div id="letters"></div>
-    <p id="message"></p>
-    <button onclick="startGame()">Play/Restart</button>
-    <button onclick="location.href='index.html'">Back to Home</button>
-  </div>
+
+    <div id="word" class="word-display"></div>
+
+    <div id="letters" class="letters-container"></div>
+
+    <p id="message" class="message"></p>
+
+    <div class="btn-group">
+      <button class="primary-btn" onclick="startGame()">🔄 Play / Restart</button>
+      <button class="secondary-btn" onclick="location.href='index.html'">🏠 Back to Home</button>
+    </div>
+  </main>
+
   <script src="script.js"></script>
 </body>
 </html>
