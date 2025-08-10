@@ -94,14 +94,18 @@ function guessLetter(letter) {
         disableLetters();
       }
     } else if (displayWord === chosenLocation) {
-      document.getElementById("message").textContent = "🎉 You Win!";
+      // Instead of just showing "You Win!", redirect to win.html
       disableLetters();
+      setTimeout(() => {
+        window.location.href = `win.html?city=${encodeURIComponent(chosenLocation)}`;
+      }, 1000); // small delay so player sees their win
     }
   } catch (error) {
     console.error("Error guessing letter:", error);
     alert("Something went wrong with your guess.");
   }
 }
+
 
 function disableLetters() {
   document.querySelectorAll("#letters button").forEach(btn => btn.disabled = true);
@@ -110,4 +114,12 @@ function disableLetters() {
 // Start game when page loads
 if (window.location.pathname.includes("game.html")) {
   window.onload = startGame;
+}
+
+function checkWin() {
+  if (wordDisplay.innerText === currentWord) {
+    setTimeout(() => {
+      window.location.href = `win.html?city=${encodeURIComponent(currentWord)}`;
+    }, 800);
+  }
 }
