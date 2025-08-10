@@ -22,12 +22,12 @@ const locations = [
   { 
     name: "Robben Island", 
     hint: "Historic island near Cape Town", 
-    image: "images/Robbe-Island.jpg" 
+    image: "images/Robben-Island.jpg" 
   },
   { 
     name: "Bloemfontein", 
     hint: "Judicial capital of South Africa", 
-    image: "images/Bloemfonten.jpg"  
+    image: "images/Bloemfontein.jpg"  
   }
 ];
 
