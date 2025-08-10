@@ -23,13 +23,17 @@ Teaches South African geography, culture, and famous landmarks.
 
 
 
-📂 Project Structure
-/sa-educational-game
-│── index.html        # Landing page
-│── game.html         # Game page
-│── style.css         # Common styles
-│── script.js         # Game logic with exception handling
-│── README.md         # Documentation
-│── assets/           # (optional) images/icons
+MzansiTrivia/
+├── public/                 # Static assets (images, favicon, etc.)
+├── src/
+│   ├── components/         # React components or UI modules
+│   ├── data/               # Trivia questions and location data
+│   ├── pages/              # Main game and results pages
+│   ├── App.js              # Main application component
+│   ├── index.js            # Entry point for React app
+│   └── styles/             # CSS or SCSS files
+├── package.json            # Project metadata and dependencies
+├── README.md               # Project documentation
+└── LICENSE                 # License file
 
 How to play use link: https://lindanko.github.io/MzansiTrivia/index.html
