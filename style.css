@@ -134,3 +134,117 @@ button:hover {
   background-color: #f57c00;
 }
 
+/* Game Page Layout */
+.game-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+.game-title {
+  font-size: 26px;
+  color: #009688;
+  margin-bottom: 15px;
+}
+
+/* Hint Box */
+.hint-box {
+  background: #e0f2f1;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: #004d40;
+  font-weight: bold;
+}
+
+/* Image Styling */
+.location-img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 10px;
+  margin: 15px 0;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+/* Word Display */
+.word-display {
+  font-size: 28px;
+  letter-spacing: 12px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+/* Letters Container */
+.letters-container {
+  margin-top: 15px;
+}
+
+.letters-container button {
+  background-color: #ffb74d;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  padding: 8px 12px;
+  margin: 4px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.letters-container button:hover {
+  background-color: #f57c00;
+}
+
+.letters-container button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Game Messages */
+.message {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 15px 0;
+  color: #d32f2f;
+}
+
+/* Buttons */
+.btn-group {
+  margin-top: 20px;
+}
+
+.primary-btn {
+  background-color: #4caf50;
+  padding: 12px 20px;
+  font-size: 16px;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.primary-btn:hover {
+  background-color: #388e3c;
+}
+
+.secondary-btn {
+  background-color: #009688;
+  padding: 12px 20px;
+  font-size: 16px;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.secondary-btn:hover {
+  background-color: #00796b;
+}
+
